@@ -34,6 +34,11 @@ export const metadata: Metadata = {
     "StackX",
     "cost-effective development",
   ],
+  icons: {
+    icon: "/StackXMINI.svg",
+    shortcut: "/StackXMINI.svg",
+    apple: "/StackXMINI.svg",
+  },
   openGraph: {
     title: "StackX — Professional Web Development at Unbeatable Costs",
     description:
