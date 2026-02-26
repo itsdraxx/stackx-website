@@ -9,6 +9,7 @@ import {
   AnimatedCounter,
   TestimonialCard,
 } from "@/components/ui";
+import LeadershipSection from "@/components/sections/LeadershipSection";
 import {
   HiCode,
   HiCog,
@@ -325,6 +326,9 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* ═══ LEADERSHIP TEAM ═══ */}
+      <LeadershipSection variant="compact" />
+
       {/* ═══ TESTIMONIALS CAROUSEL ═══ */}
       <section className="py-24 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -362,8 +366,8 @@ export default function HomePage() {
                     key={i}
                     onClick={() => setCurrentTestimonial(i)}
                     className={`w-2 h-2 rounded-full transition-all cursor-pointer ${i === currentTestimonial
-                        ? "bg-primary w-6"
-                        : "bg-white/20"
+                      ? "bg-primary w-6"
+                      : "bg-white/20"
                       }`}
                     aria-label={`Go to testimonial ${i + 1}`}
                   />

@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { SectionHeading, GlassCard, Button } from "@/components/ui";
+import LeadershipSection from "@/components/sections/LeadershipSection";
 import {
     HiEye,
     HiHeart,
@@ -232,6 +233,9 @@ export default function AboutPage() {
                     </div>
                 </div>
             </section>
+
+            {/* ═══ LEADERSHIP TEAM ═══ */}
+            <LeadershipSection variant="expanded" />
 
             {/* CTA */}
             <section className="py-24">
