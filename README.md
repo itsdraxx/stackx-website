@@ -18,6 +18,25 @@
 
 ---
 
+## 📑 Quick Navigation
+
+<p align="center">
+  <a href="#-project-description">Description</a> · 
+  <a href="#-features">Features</a> · 
+  <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> · 
+  <a href="#-project-structure">Project Structure</a> · 
+  <a href="#-pages-overview">Pages Overview</a> · 
+  <a href="#-reusable-components">Components</a> · 
+  <a href="#-design-system">Design System</a> · 
+  <a href="#-getting-started">Getting Started</a> · 
+  <a href="#-api-overview">API</a> · 
+  <a href="#-seo">SEO</a> · 
+  <a href="#%E2%99%BF%EF%B8%8F-accessibility">Accessibility</a> · 
+  <a href="#%E2%9A%A0%EF%B8%8F-notes--limitations">Notes</a>
+</p>
+
+---
+
 ## 📖 Project Description
 
 StackX is a premium SaaS agency website designed to showcase the company's services, portfolio, team, and client testimonials. Built with a **dark glassmorphism aesthetic**, it features rich micro-animations, scroll-triggered reveals, a custom animated cursor, and a fully responsive layout across all devices. The website is engineered as a conversion funnel — guiding visitors from the hero section through social proof, service details, and case studies toward the consultation form.
